@@ -1,0 +1,125 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "desc" : "Fetch air quality from aqicn and display it in the menubar.",
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "Constructor" : [
+
+    ],
+    "items" : [
+      {
+        "parameters" : [
+          " * location - A string of the city, e.g. shanghai"
+        ],
+        "stripped_doc" : [
+          "The location of air quality to monitor",
+          ""
+        ],
+        "doc" : "The location of air quality to monitor\n\nParameters:\n * location - A string of the city, e.g. shanghai",
+        "def" : "Aqicn:setLocation(location)",
+        "notes" : [
+
+        ],
+        "signature" : "Aqicn:setLocation(location)",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "name" : "setLocation",
+        "desc" : "The location of air quality to monitor"
+      },
+      {
+        "parameters" : [
+          " * token - A string of token"
+        ],
+        "stripped_doc" : [
+          "The token to call the aqicn.org API. ",
+          "Get your own token here - http:\/\/aqicn.org\/data-platform\/token\/#\/",
+          ""
+        ],
+        "doc" : "The token to call the aqicn.org API. \nGet your own token here - http:\/\/aqicn.org\/data-platform\/token\/#\/\n\nParameters:\n * token - A string of token",
+        "def" : "Aqicn:setToken(token)",
+        "notes" : [
+
+        ],
+        "signature" : "Aqicn:setToken(token)",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "name" : "setToken",
+        "desc" : "The token to call the aqicn.org API."
+      }
+    ],
+    "Field" : [
+
+    ],
+    "Command" : [
+
+    ],
+    "doc" : "Fetch air quality from aqicn and display it in the menubar.\nDownload: [https:\/\/github.com\/holsety\/Aqicn.spoon\/archive\/v0.1.0.zip](https:\/\/github.com\/holsety\/Aqicn.spoon\/archive\/v0.1.0.zip)",
+    "Method" : [
+      {
+        "parameters" : [
+          " * location - A string of the city, e.g. shanghai"
+        ],
+        "stripped_doc" : [
+          "The location of air quality to monitor",
+          ""
+        ],
+        "doc" : "The location of air quality to monitor\n\nParameters:\n * location - A string of the city, e.g. shanghai",
+        "def" : "Aqicn:setLocation(location)",
+        "notes" : [
+
+        ],
+        "signature" : "Aqicn:setLocation(location)",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "name" : "setLocation",
+        "desc" : "The location of air quality to monitor"
+      },
+      {
+        "parameters" : [
+          " * token - A string of token"
+        ],
+        "stripped_doc" : [
+          "The token to call the aqicn.org API. ",
+          "Get your own token here - http:\/\/aqicn.org\/data-platform\/token\/#\/",
+          ""
+        ],
+        "doc" : "The token to call the aqicn.org API. \nGet your own token here - http:\/\/aqicn.org\/data-platform\/token\/#\/\n\nParameters:\n * token - A string of token",
+        "def" : "Aqicn:setToken(token)",
+        "notes" : [
+
+        ],
+        "signature" : "Aqicn:setToken(token)",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "name" : "setToken",
+        "desc" : "The token to call the aqicn.org API."
+      }
+    ],
+    "name" : "Aqicn"
+  }
+]

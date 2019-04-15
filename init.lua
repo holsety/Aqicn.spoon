@@ -1,7 +1,7 @@
---- === ReloadConfiguration ===
+--- === Aqicn ===
 ---
 --- Fetch air quality from aqicn and display it in the menubar.
---- Download: 
+--- Download: [https://github.com/holsety/Aqicn.spoon/archive/v0.1.0.zip](https://github.com/holsety/Aqicn.spoon/archive/v0.1.0.zip)
 
 
 
