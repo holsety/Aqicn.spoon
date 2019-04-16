@@ -41,7 +41,7 @@ end
 local function parseResponse(data)
     obj.menudata = {}
     
-    table.insert(obj.menudata, {title = string.format("%s - %s", obj.location, data.time.s)})
+    table.insert(obj.menudata, {title = string.format("%s - %s", obj.location, data.time.s), fn = aqicnRequest})
     table.insert(obj.menudata, {title = '-'})
 
     for k, v in pairs(data.iaqi) do
